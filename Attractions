@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<head>
+    <title>AnnyeongChingu</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+  <link href="https://fonts.googleas.com/css?family=Kanit|Lobster|Nunito|Quicksand" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: black;
+    background-color: #fafafa;
+    line-height: 1.8;
+}
+nav{
+  background-color: #138d75;
+}
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* First image (Logo. Full height) */
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+.example{
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(1,1,1,0.3);
+}
+.example:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+#seoul, #jeju, #busan{
+    color: rgba(240,100,100,0.9);
+    font-size: 50px;
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+</style>
+
+</head>
+
+<body>
+
+<!--nav bar-->
+
+
+<nav>
+<ul class="nav">
+  <li class="home"><a href="./index.html">ANNYEONG CHINGU</a></li>
+  <li class="language"><a href="./language.html">LANGUAGE</a></li>
+  <li class="foods"><a href="./food.html">FOODS</a></li>
+  <li class="attractions"><a class="attractions_title" href="./attractions.html">ATTRACTIONS</a></li>
+  <li class="quiz"><a href="./quiz.html">QUIZ</a></li>
+</ul>
+</nav>
+
+
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+
+<div class="Seoul mySlides">
+  <h1 class="w3-center" id="seoul">Seoul</h1>
+  <p class="w3-center"><em>Seoul is the capital city of South Korea.<br>From modern skyscrapers and neon lights to Buddhist temples, palaces and pagodas, Seoul is a fascinating mix of old and new.</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <div class="example">
+      <img src="./img/GyeongbokPlace.png" style="width:100%" class="w3-hover-opacity" alt="Gyeongbok Palace">
+        <div class="overlay">
+         <div class="text"><a href="http://www.royalpalace.go.kr/html/eng/main/main.jsp" target="_blank" style="text-decoration:none">Gyeonbok Place</div>
+         </div>
+     </div>
+    </div>
+
+    <div class="w3-col m3">
+      <div class="example">
+      <img src="./img/bukchon.jpg" style="width:100%" class="w3-hover-opacity" alt="Bukchon Hanok Space">
+      <div class="overlay">
+       <div class="text"><a href="http://hanok.seoul.go.kr/front/eng/index.do" target="_blank" style="text-decoration:none">Bukchon Hanok Space</div>
+       </div>
+   </div>
+    </div>
+
+    <div class="w3-col m3">
+            <div class="example">
+      <img src="./img/NseoulTower.jpeg" style="width:100%" class="w3-hover-opacity" alt="N Seoul Tower">
+      <div class="overlay">
+       <div class="text"><a href="http://www.nseoultower.co.kr/eng/" target="_blank" style="text-decoration:none">N Seoul Tower</div>
+       </div>
+    </div>
+    </div>
+
+    <div class="w3-col m3">
+      <div class="example">
+      <img src="./img/ssamjiGil.jpg" style="width:100%" class="w3-hover-opacity" alt="Ssamji-Gil">
+      <div class="overlay">
+       <div class="text"><a href="http://www.hiinsa.com/eng/" target="_blank" style="text-decoration:none">Insadong Ssamgi Gil</a></div>
+       </div>
+    </div>
+    </div>
+  </div>
+
+
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <div class="example">
+      <img src="./img/hangangPark.jpg" style="width:100%" class="w3-hover-opacity" alt="Yeouido Hangang Park">
+      <div class="overlay">
+       <div class="text"><a href="http://english.seoul.go.kr/life-information/natural-attractions-parks/hangang/00-parks-hangang-river/" target="_blank" style="text-decoration:none">Yeouido Hangang Park</a></div>
+       </div>
+
+    </div>
+    </div>
+
+    <div class="w3-col m3">
+    <div class="example">
+      <img src="./img/SkyPark.jpg" style="width:100%" target="_blank" class="w3-hover-opacity" alt="Hanuel(sky) Park">
+      <div class="overlay">
+       <div class="text"><a href="http://english.seoul.go.kr/life-information/natural-attractions-parks/parks/?pidx=7" target="_blank" style="text-decoration:none">Hanuel Park</a></div>
+       </div>
+    </div>
+    </div>
+
+    <div class="w3-col m3">
+      <div class="example">
+      <img src="./img/ddp.jpg" style="width:100%" class="w3-hover-opacity" alt="Dongdeamun Design Plaza">
+      <div class="overlay">
+       <div class="text"><a href="http://www.ddp.or.kr/main?hl=en_US" target="_blank" style="text-decoration:none">Dongdeamun Design Plaza</a></div>
+       </div>
+     </div>
+    </div>
+
+    <div class="w3-col m3">
+      <div class="example">
+      <img src="./img/MyeongDong.jpeg" style="width:100%" class="w3-hover-opacity" alt="Myeongdong Street">
+      <div class="overlay">
+       <div class="text"><a href="http://www.junggu.seoul.kr/tour/eng/content.do?cmsid=5201&contentId=6998" target="_blank" style="text-decoration:none">Myeongdong Street</a></div>
+       </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- BUSAN -->
+<div class="Busan mySlides">
+  <h1 class="w3-center" id="busan">Busan</h1>
+  <p class="w3-center"><em>Busan is second most popular city after Seoul.<br>Busan is a large port city in South Korea, is known for its beaches, mountains and temples.</em></p><br>
+
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <div class="example">
+      <img src="./img/Teajongdae.jpg" style="width:100%" class="w3-hover-opacity" alt="Teajongdae">
+      <div class="overlay">
+       <div class="text"><a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264167" target="_blank" style="text-decoration:none">Teajongdae</a></div>
+       </div>
+
+    </div>
+    </div>
+
+    <div class="w3-col m3">
+    <div class="example">
+      <img src="./img/haedong.jpg" style="width:100%" target="_blank" class="w3-hover-opacity" alt="Haedong Yonggungsa">
+      <div class="overlay">
+       <div class="text"><a href="http://www.walkwithcham.com/2016/01/haedong-yonggungsa-temple.html" target="_blank" style="text-decoration:none">Haedong Yonggungsa</a></div>
+       </div>
+    </div>
+    </div>
+
+    <div class="w3-col m3">
+      <div class="example">
+      <img src="./img/haeundae.jpg" style="width:100%" class="w3-hover-opacity" alt="Haeundae Beach">
+      <div class="overlay">
+       <div class="text"><a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264155" target="_blank" style="text-decoration:none">Haeundae Beach</a></div>
+       </div>
+     </div>
+    </div>
+
+    <div class="w3-col m3">
+      <div class="example">
+      <img src="./img/gukjeMarket.jpg" style="width:100%" class="w3-hover-opacity" alt="Gukje Market">
+      <div class="overlay">
+       <div class="text"><a href="http://english.visitkorea.or.kr/enu/SHP/SH_EN_7_2.jsp?cid=705873" target="_blank" style="text-decoration:none">Gukje Market</a></div>
+       </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <div class="example">
+      <img src="./img/Beomeosa.jpeg" style="width:100%" class="w3-hover-opacity" alt="Beomeosa">
+      <div class="overlay">
+       <div class="text"><a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264227" target="_blank" style="text-decoration:none">Beomeosa</a></div>
+       </div>
+
+    </div>
+    </div>
+
+    <div class="w3-col m3">
+    <div class="example">
+      <img src="./img/gamcheon.jpg" style="width:100%" target="_blank" class="w3-hover-opacity" alt="Gamcheon Culture Village">
+      <div class="overlay">
+       <div class="text"><a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=1998211" target="_blank" style="text-decoration:none">Gamcheon Culture Village</a></div>
+       </div>
+    </div>
+    </div>
+
+    <div class="w3-col m3">
+      <div class="example">
+      <img src="./img/subyeon.JPG" style="width:100%" class="w3-hover-opacity" alt="Minrak Subyeon Park">
+      <div class="overlay">
+       <div class="text"><a href="https://www.tripadvisor.ie/Attraction_Review-g297884-d4095638-Reviews-Minrak_Subyeon_Gongweon-Busan.html" target="_blank" style="text-decoration:none">Minrak Subyeon Gongweon</a></div>
+       </div>
+     </div>
+    </div>
+
+    <div class="w3-col m3">
+      <div class="example">
+      <img src="./img/Gwangandaegyo.jpg" style="width:100%" class="w3-hover-opacity" alt="Gwangandaegyo">
+      <div class="overlay">
+       <div class="text"><a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=1064834" target="_blank" style="text-decoration:none">Gwangandaegyo</a></div>
+       </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+<!--JEJU -->
+
+<div class="Jeju mySlides">
+  <h1 class="w3-center" id="jeju">Jeju</h1>
+  <p class="w3-center"><em>Jeju island is the largest island in Korea.<br>If you go to Jeju Island, you will be attracted to the beauty of Jeju Island.
+</em></p><br>
+
+<div class="w3-row-padding w3-center">
+  <div class="w3-col m3">
+    <div class="example">
+    <img src="./img/hallaMountain.jpg" style="width:100%" class="w3-hover-opacity" alt="Halla Mountain">
+    <div class="overlay">
+     <div class="text"><a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264172" target="_blank" style="text-decoration:none">Halla Mountain</a></div>
+     </div>
+
+  </div>
+  </div>
+
+  <div class="w3-col m3">
+  <div class="example">
+    <img src="./img/seongsanilchulbong.jpg" style="width:100%" target="_blank" class="w3-hover-opacity" alt="Seongsan Ilchulbong">
+    <div class="overlay">
+     <div class="text"><a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264207" target="_blank" style="text-decoration:none">Seongsan Ilchulbong</a></div>
+     </div>
+  </div>
+  </div>
+
+  <div class="w3-col m3">
+    <div class="example">
+    <img src="./img/ollegil.jpeg" style="width:100%" class="w3-hover-opacity" alt="Olle-Gil">
+    <div class="overlay">
+     <div class="text"><a href="https://english.visitkorea.or.kr/enu/ATR/SI_ENG_2_3_1.jsp" target="_blank" style="text-decoration:none">Olle-Gil</a></div>
+     </div>
+   </div>
+  </div>
+
+  <div class="w3-col m3">
+    <div class="example">
+    <img src="./img/manjanggul.jpeg" style="width:100%" class="w3-hover-opacity" alt="Manjang-Gul">
+    <div class="overlay">
+     <div class="text"><a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264236" target="_blank" style="text-decoration:none">Manjang-Gul</a></div>
+     </div>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="w3-row-padding w3-center">
+  <div class="w3-col m3">
+    <div class="example">
+    <img src="./img/SeongeupFolkVillage.jpg" style="width:100%" class="w3-hover-opacity" alt="Seongeup Folk Villagen">
+    <div class="overlay">
+     <div class="text"><a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264205" target="_blank" style="text-decoration:none">Seongeup Folk Village</a></div>
+     </div>
+
+  </div>
+  </div>
+
+  <div class="w3-col m3">
+  <div class="example">
+    <img src="./img/dumoak.jpg" style="width:100%" target="_blank" class="w3-hover-opacity" alt="kim young gap gallery Dumoak">
+    <div class="overlay">
+     <div class="text"><a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=1056620" target="_blank" style="text-decoration:none">Kim Young Gap Gallery Dumoak</a></div>
+     </div>
+  </div>
+  </div>
+
+  <div class="w3-col m3">
+    <div class="example">
+    <img src="./img/oreum.jpeg" style="width:100%" class="w3-hover-opacity" alt="Yongnuni Oreum">
+    <div class="overlay">
+     <div class="text"><a href="http://www.lovejeju.info/yongnuni-oreum/?ckattempt=1" target="_blank" style="text-decoration:none">Yongnuni Oreum</a></div>
+     </div>
+   </div>
+  </div>
+
+  <div class="w3-col m3">
+    <div class="example">
+    <img src="./img/cheonjeyeon.jpg" style="width:100%" class="w3-hover-opacity" alt="Cheonjeyeon Waterfall">
+    <div class="overlay">
+     <div class="text"><a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264176" target="_blank" style="text-decoration:none"> Cheonjeyeon Waterfall</a></div>
+     </div>
+    </div>
+  </div>
+
+</div>
+
+
+</div>
+
+
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+      <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+      <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      <!--
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>-->
+    </div>
+  </div>
+
+</div>
+
+<script>
+function clickFunction(){
+  document.getElementById()
+}
+$('#seoul').click(function()
+{
+  $('#seoul_description').show()
+}
+);
+$('div').hover(function()
+{
+   $('#seoul_description').hide()
+ });
+ /*
+$('#seoul_description').hover(function()
+{
+   $('#seoul_description').hide()
+ });*/
+/*
+$('#seoul_description').hover(function()
+{
+}, function()
+ {
+   $('#seoul_description').hide()
+ });*/
+</script>
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+</body>
+
+</html>
