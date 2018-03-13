@@ -12,14 +12,14 @@
       color: white;
     }
     h1 {
-      font-size: 70px;
+      font-size: 50px;
       color: white;
       font-family: 'Playfair Display', serif;
     }
     img {
       margin: 0px 0px 0px 0px;
       border: 5px solid white;
-      border-radius: 30px;
+      border-radius: 20px;
     }
     ul {
       padding: 10px;
