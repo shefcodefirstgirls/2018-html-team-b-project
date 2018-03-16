@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <head>
+  <title>Tour Sheffield</title>
   <link href="/normalize.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,900i" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   <style>
     header {
       text-align: center;
@@ -12,7 +13,7 @@
       color: white;
     }
     h1 {
-      font-size: 5px;
+      font-size: 50px;
       color: white;
       font-family: 'Playfair Display', serif;
     }
@@ -51,6 +52,22 @@
       background-image opacity: 0.5;
       background-size: cover;
       background-position: center;
+    }
+    input[type="email"]{
+      font-family: 'Playfair Display', serif;
+      color: black;
+      background: white;
+      border: 0;
+      padding: 10px;
+      font-size: 15px;
+    }
+    input[type="submit"]{
+      font-family: 'Playfair Display', serif;
+      color: white;
+      background: rgba(0,0,0,0.5);
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
     }
   </style>
 </head>
@@ -147,4 +164,18 @@
       });
   </script>
 -->
+<input type="email" placeholder="Your email">
+  <input type="submit">
+
+  <!-- Footer -->
+<footer class="w3-container w3-padding-120 w3-center w3-white w3-xxlarge">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+    Powered by <a href="https://www.codefirstgirls.org.uk" target="_blank">Code First: Girls</a>
+  </p>
+</footer>
 </body>
