@@ -1,0 +1,54 @@
+html{
+	background: url("images/bw_arts_tower.jpeg");
+	background-size: cover;
+}
+
+header {
+text-align: left;
+font-size: 40px;
+color: white;
+font-family: 'Playfair Display', serif;
+}
+
+ul {
+padding: 10px;
+background: rgba(0,0,0,0.5);
+font-size: 20px;
+font-family: 'Playfair Display', serif;
+}
+
+li {
+display: inline;
+padding: 0px 15px 0px 15px;
+}
+body {
+font-family: 'Playfair Display', serif;
+}
+
+h1{
+	margin:0;
+	font-size: 50px;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+}
+
+h2{
+  margin: 0;
+	font-size: 30px;
+	font-family: 'Playfair Display', serif;
+	font-weight: normal;
+}
+
+h3{
+	margin: 0;
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+}
+
+h4{
+	margin: 0;
+	font-size: 15px;
+	font-family: 'Playfair Display', serif;
+  font-weight: normal;
+}
