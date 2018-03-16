@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<head>
+<title>Hotels</title> </head>
+<link href="/normalize.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,900i" rel="stylesheet">
+<style>
+
+<style>
+header {
+text-align: left;
+font-size: 40px;
+color: white;
+font-family: 'Playfair Display', serif;
+}
+ul {
+padding: 10px;
+background: rgba(0,0,0,0.5);
+font-size: 20px;
+font-family: 'Playfair Display', serif;
+}
+li {
+display: inline;
+padding: 0px 15px 0px 15px;
+}
+body {
+background: url("https://images.unsplash.com/photo-1495770467793-2c4b3f239dea?ixlib=rb-0.3.5&s=1177e38799c758d15059fcffc18952fb&auto=format&fit=crop&w=1532&q=80");
+font-family: 'Playfair Display', serif;
+}
+.item1 {
+grid-area: 1 / 1 / 2 / 2;
+background-image: url("http://c7.alamy.com/comp/CR01JX/meadowhall-shopping-centre-mall-sheffield-south-yorkshire-england-CR01JX.jpg");
+background-size: cover;
+}
+.item2 { grid-area: 1 / 2 / 2 / 3;
+background-image: url("https://c1.staticflickr.com/7/6038/6272200975_071c2b54eb_b.jpg");
+background-size: cover;
+}
+.item3 { grid-area: 2 / 1 / 2 / 2;
+background-image: url("https://www.sheffield.ac.uk/polopoly_fs/1.713272!/image/division-st1005x486.jpg");
+background-size: cover;
+}
+.item4 { grid-area: 2 / 2 / 3 / 3; }
+
+.grid-container {
+display: grid;
+grid-auto-columns: 50%;
+grid-auto-rows: 50%
+grid-gap: 10px;
+background-color: rgba(0,0,0,0.5);
+padding: 10px;
+}
+.grid-container>div {
+background-color: rgba(255, 255, 255, 0.8);
+text-align: left;
+padding:20px 0;
+font-size: 20px;
+}
+@media (max-width: 500px) {
+h1 {font-size: 36px;
+}
+li {display: block;
+    padding: 5px;
+}
+}
+
+img.rounded-circle {
+
+    padding: 3px; /* Some padding */
+    width: 150px; /* Set a small width */
+    height: 150px;
+}
+</style>
+
+
+
+<body>
+
+<h1>Shopping</h1>
+<ul>
+  <li><a href="#">Sights</a></li>
+  <li><a href="#">Food</a></li>
+  <li><a href="#">Hotels</a></li>
+  <li><a href="#">Transport</a></li>
+  <li><a href="#">Shops</a></li>
+  <li><a href="#">About Us</a></li>
+  <li><a href="#">Forum</a></li>
+</ul>
+</header>
+<!--main body content----->
+<br/>
+<div class="container fluid">
+
+<div class="container">
+  <!---mercure sheffield---->
+  <div class="row"> <!-- open row -->
+				<div class="col-md-auto"> <!-- open col -->
+
+					<a target="_blank" href="https://www.accorhotels.com/gb/hotel-6628-mercure-sheffield-st-paul-s-hotel-and-spa/index.shtml#origin=mercure">
+						<img src="mercure.jpeg" class="rounded-circle" alt="">
+					</a>
+				</div> <!-- close col -->
+				<div class="col-8"> <!-- open col -->
+					<div class="media-body"> <!-- open media -->
+						<h2 class="mt-0 mb-1"><strong>Mercure Sheffield</strong></h2>
+						<h3>
+              <ul>
+              <li><a href="#">Tripadvisor rating: 4/5</a></li>
+              <li><a href="#">Price per night: £88</a></li>
+              <li><a href="#">Distance from city centre: 0 miles</a></li>
+            </ul>
+            </h3>
+          </div> <!-- close media -->
+    				</div> <!-- close col -->
+    			</div> <!-- close mercure ->
+
+      <!-Days Inn Sheffield---->
+        <div class="row"> <!-- open row -->
+          	<div class="col-md-auto"> <!-- open col -->
+
+          <a target="_blank" href="https://www.wyndhamhotels.com/en-uk/days-inn/sheffield-united-kingdom/days-inn-sheffield-m1/overview">
+          <img src="daysInn.jpeg" class="rounded-circle" alt="">
+          	</a>
+          	</div> <!-- close col -->
+          		<div class="col-8"> <!-- open col -->
+          		 <div class="media-body"> <!-- open media -->
+          			 <h2 class="mt-0 mb-1"><strong>Days Inn Sheffield</strong></h2>
+          			<h3>
+                <ul>
+                <li><a href="#">Tripadvisor rating: 3.5/5</a></li>
+                <li><a href="#">Price per night: £38</a></li>
+                <li><a href="#">Distance from city centre: 9 miles</a></li>
+                </ul>
+                </h3>
+                  </div> <!-- close media -->
+              		</div> <!-- close col -->
+              	</div> <!-- close days Inn ->
+
+        <!-Hampton by Hilton---->
+          <div class="row"> <!-- open row -->
+          <div class="col-md-auto"> <!-- open col -->
+
+            <a target="_blank" href="http://hamptoninn3.hilton.com/en/hotels/united-kingdom/hampton-by-hilton-sheffield-DSASHHX/index.html">
+            <img src="hamptonbyhilton.jpeg" class="rounded-circle" alt="">
+              </a>
+            </div> <!-- close col -->
+            <div class="col-8"> <!-- open col -->
+            <div class="media-body"> <!-- open media -->
+           <h2 class="mt-0 mb-1"><strong>Hampton by Hilton</strong></h2>
+            <h3>
+            <ul>
+            <li><a href="#">Tripadvisor rating: 4.5/5</a></li>
+            <li><a href="#">Price per night: £49</a></li>
+            <li><a href="#">Distance from city centre: 0.3 miles</a></li>
+            </ul>
+            </h3>
+          </div> <!-- close media -->
+          </div> <!-- close col -->
+       </div> <!-- close days hampton by hilton ->
+
+         <!-Harley Hotel ---->
+           <div class="row"> <!-- open row -->
+           <div class="col-md-auto"> <!-- open col -->
+
+             <a target="_blank" href="http://www.theharley.co.uk/hotel/">
+             <img src="harley.jpeg" class="rounded-circle" alt="">
+               </a>
+             </div> <!-- close col -->
+             <div class="col-8"> <!-- open col -->
+             <div class="media-body"> <!-- open media -->
+            <h2 class="mt-0 mb-1"><strong>Harley Hotel</strong></h2>
+             <h3>
+             <ul>
+             <li><a href="#">Tripadvisor rating: 2.5/5</a></li>
+             <li><a href="#">Price per night: £35</a></li>
+             <li><a href="#">Distance from city centre: 0.7 miles</a></li>
+             </ul>
+             </h3>
+           </div> <!-- close media -->
+           </div> <!-- close col -->
+        </div> <!-- close harley hotel -->
+  </body>
+<br/>
+<br/>
+
+<section id="social" class="social">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+  <div id='social-buttons'>
+    <a class='image-link' href='https://twitter.com' target='_blank'>
+      <img src='twitter.jpeg' width="40" height="40">
+  </a>
+ <a class='image-link' href="https://www.facebook.com">
+ <img src='facebook.png' width="50" height="50">
+ </a>
+ <a class='image-link' href='https://www.pinterest.co.uk' target='_blank'>
+ <img src='pinterest.jpeg' width="40" height="40">
+       </a>
+      </div>
+      </div>
+    </div>
+   </div>
+   </section>
+
+   <br/>
