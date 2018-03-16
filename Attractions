@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <head>
-    <title>AnnyeongChingu</title>
+    <title>Attractions</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <link rel="stylesheet" type="text/css" href="./css/index.css">
-  <link href="https://fonts.googleas.com/css?family=Kanit|Lobster|Nunito|Quicksand" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Playfair Display', serif;}
 body, html {
     height: 100%;
     color: black;
@@ -26,7 +22,7 @@ nav{
   background-color: #138d75;
 }
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -62,22 +58,21 @@ nav{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-#seoul, #jeju, #busan{
+#Sheffield1, #Sheffield2{
     color: rgba(240,100,100,0.9);
     font-size: 50px;
 }
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .bgimg-1, .bgimg-2 {
         background-attachment: scroll;
     }
 }
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+html,body,h1,h2,h3,h4 {font-family:"Playfair Display", sans-serif}
 .mySlides {display:none}
 .w3-tag, .fa {cursor:pointer}
 .w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
@@ -88,72 +83,71 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 <body>
 
 <!--nav bar-->
-
-
 <nav>
 <ul class="nav">
-  <li class="home"><a href="./index.html">ANNYEONG CHINGU</a></li>
-  <li class="language"><a href="./language.html">LANGUAGE</a></li>
-  <li class="foods"><a href="./food.html">FOODS</a></li>
-  <li class="attractions"><a class="attractions_title" href="./attractions.html">ATTRACTIONS</a></li>
-  <li class="quiz"><a href="./quiz.html">QUIZ</a></li>
+  <li class="sights"><a href="./sights.html">Sights</a></li>
+  <li class="food"><a href="./Food.html">Food</a></li>
+  <li class="hotels"><a href="./Hotels.html">Hotels</a></li>
+  <li class="transport"><a class="attractions_title" href="./attractions.html">Transport</a></li>
+  <li class="shops"><a href="./Shops.html">Shops</a></li>
+  <li class="about us"><a href="./about us.html">About Us</a></li>
+  <li class="forum"><a href="./Forum.html">Forum</a></li>
 </ul>
 </nav>
 
-
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
 
-<div class="Seoul mySlides">
-  <h1 class="w3-center" id="seoul">Seoul</h1>
-  <p class="w3-center"><em>Seoul is the capital city of South Korea.<br>From modern skyscrapers and neon lights to Buddhist temples, palaces and pagodas, Seoul is a fascinating mix of old and new.</em></p><br>
+<div class="Sheffield1 mySlides">
+  <h1 class="w3-center" id="Sheffield1">Sheffield</h1>
+  <p class="w3-center"><em>Sheffield is a city and metropolitan borough in South Yorkshire, England.
+  <br>Being the compact city that it is, Sheffield is pretty easy to get around, so whether you fancy clocking up some steps or jumping on a bus/tram, there are some really interesting districts close to the city centre just waiting to be discovered.</em></p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <!-- SHEEFIELD  PART 1-->
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
       <div class="example">
-      <img src="./img/GyeongbokPlace.png" style="width:100%" class="w3-hover-opacity" alt="Gyeongbok Palace">
+      <img src="./img/AntiquesQuarter.JPG" style="width:100%" class="w3-hover-opacity" alt="Antiques Quarter">
         <div class="overlay">
-         <div class="text"><a href="http://www.royalpalace.go.kr/html/eng/main/main.jsp" target="_blank" style="text-decoration:none">Gyeonbok Place</div>
+         <div class="text"><a href="http://sheffieldantiquesquarter.co.uk/" target="_blank" style="text-decoration:none">Antiques Quarter</div>
          </div>
      </div>
     </div>
 
     <div class="w3-col m3">
       <div class="example">
-      <img src="./img/bukchon.jpg" style="width:100%" class="w3-hover-opacity" alt="Bukchon Hanok Space">
+      <img src="./img/ChatsworthHouse.jpg" style="width:100%" class="w3-hover-opacity" alt="Chatsworth House">
       <div class="overlay">
-       <div class="text"><a href="http://hanok.seoul.go.kr/front/eng/index.do" target="_blank" style="text-decoration:none">Bukchon Hanok Space</div>
+       <div class="text"><a href="https://www.chatsworth.org/" target="_blank" style="text-decoration:none">Chatsworth House</div>
        </div>
    </div>
     </div>
 
     <div class="w3-col m3">
             <div class="example">
-      <img src="./img/NseoulTower.jpeg" style="width:100%" class="w3-hover-opacity" alt="N Seoul Tower">
+      <img src="./img/CityCentre.jpg" style="width:100%" class="w3-hover-opacity" alt="City Centre">
       <div class="overlay">
-       <div class="text"><a href="http://www.nseoultower.co.kr/eng/" target="_blank" style="text-decoration:none">N Seoul Tower</div>
+       <div class="text"><a href="http://www.welcometosheffield.co.uk/visit/explore/city-centre" target="_blank" style="text-decoration:none">City Centre</div>
        </div>
     </div>
     </div>
 
     <div class="w3-col m3">
       <div class="example">
-      <img src="./img/ssamjiGil.jpg" style="width:100%" class="w3-hover-opacity" alt="Ssamji-Gil">
+      <img src="./img/EcclesallRoad&SharrowVale.jpg" style="width:100%" class="w3-hover-opacity" alt="Ecclesall Road & Sharrow Vale">
       <div class="overlay">
-       <div class="text"><a href="http://www.hiinsa.com/eng/" target="_blank" style="text-decoration:none">Insadong Ssamgi Gil</a></div>
+       <div class="text"><a href="http://sharrowvale.co.uk/" target="_blank" style="text-decoration:none">Sharrow Vale</a></div>
        </div>
     </div>
     </div>
   </div>
 
-
-
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3">
       <div class="example">
-      <img src="./img/hangangPark.jpg" style="width:100%" class="w3-hover-opacity" alt="Yeouido Hangang Park">
+      <img src="./img/GravesGallery.jpg" style="width:100%" class="w3-hover-opacity" alt="Graves Gallery">
       <div class="overlay">
-       <div class="text"><a href="http://english.seoul.go.kr/life-information/natural-attractions-parks/hangang/00-parks-hangang-river/" target="_blank" style="text-decoration:none">Yeouido Hangang Park</a></div>
+       <div class="text"><a href="http://www.museums-sheffield.org.uk/museums/graves-gallery/home" target="_blank" style="text-decoration:none">Graves Gallery</a></div>
        </div>
 
     </div>
@@ -161,27 +155,27 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <div class="w3-col m3">
     <div class="example">
-      <img src="./img/SkyPark.jpg" style="width:100%" target="_blank" class="w3-hover-opacity" alt="Hanuel(sky) Park">
+      <img src="./img/KelhamIsland.JPG" style="width:100%" target="_blank" class="w3-hover-opacity" alt="Kelham Island">
       <div class="overlay">
-       <div class="text"><a href="http://english.seoul.go.kr/life-information/natural-attractions-parks/parks/?pidx=7" target="_blank" style="text-decoration:none">Hanuel Park</a></div>
+       <div class="text"><a href="http://www.welcometosheffield.co.uk/visit/explore/kelham-island" target="_blank" style="text-decoration:none">Kelham Island</a></div>
        </div>
     </div>
     </div>
 
     <div class="w3-col m3">
       <div class="example">
-      <img src="./img/ddp.jpg" style="width:100%" class="w3-hover-opacity" alt="Dongdeamun Design Plaza">
+      <img src="./img/BeauchiefAbbey.jpg" style="width:100%" class="w3-hover-opacity" alt="Beauchief Abbey">
       <div class="overlay">
-       <div class="text"><a href="http://www.ddp.or.kr/main?hl=en_US" target="_blank" style="text-decoration:none">Dongdeamun Design Plaza</a></div>
+       <div class="text"><a href="http://beauchiefabbey.org.uk/" target="_blank" style="text-decoration:none">Beauchief Abbey</a></div>
        </div>
      </div>
     </div>
 
     <div class="w3-col m3">
       <div class="example">
-      <img src="./img/MyeongDong.jpeg" style="width:100%" class="w3-hover-opacity" alt="Myeongdong Street">
+      <img src="./img/LondonRoad.jpg" style="width:100%" class="w3-hover-opacity" alt="London Road">
       <div class="overlay">
-       <div class="text"><a href="http://www.junggu.seoul.kr/tour/eng/content.do?cmsid=5201&contentId=6998" target="_blank" style="text-decoration:none">Myeongdong Street</a></div>
+       <div class="text"><a href="http://www.theoutdoorcity.co.uk/eat-your-way-around-the-world/" target="_blank" style="text-decoration:none">London Road</a></div>
        </div>
       </div>
     </div>
@@ -191,17 +185,18 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 </div>
 
 
-<!-- BUSAN -->
-<div class="Busan mySlides">
-  <h1 class="w3-center" id="busan">Busan</h1>
-  <p class="w3-center"><em>Busan is second most popular city after Seoul.<br>Busan is a large port city in South Korea, is known for its beaches, mountains and temples.</em></p><br>
+<!-- SHEEFIELD PART 2 -->
+<div class="Shffield2 mySlides">
+  <h1 class="w3-center" id="Sheffield2">Sheffield</h1>
+  <p class="w3-center"><em>Sheffield is a city and metropolitan borough in South Yorkshire, England.
+  <br>Being the compact city that it is, Sheffield is pretty easy to get around, so whether you fancy clocking up some steps or jumping on a bus/tram, there are some really interesting districts close to the city centre just waiting to be discovered.</em></p><br>
 
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
       <div class="example">
-      <img src="./img/Teajongdae.jpg" style="width:100%" class="w3-hover-opacity" alt="Teajongdae">
+      <img src="./img/MillenniumGallery.jpg" style="width:100%" class="w3-hover-opacity" alt="Millennium Gallery">
       <div class="overlay">
-       <div class="text"><a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264167" target="_blank" style="text-decoration:none">Teajongdae</a></div>
+       <div class="text"><a href="http://www.museums-sheffield.org.uk/museums/millennium-gallery/home" target="_blank" style="text-decoration:none">Millennium Gallery</a></div>
        </div>
 
     </div>
@@ -209,27 +204,27 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <div class="w3-col m3">
     <div class="example">
-      <img src="./img/haedong.jpg" style="width:100%" target="_blank" class="w3-hover-opacity" alt="Haedong Yonggungsa">
+      <img src="./img/PeakDistrict.jpg" style="width:100%" target="_blank" class="w3-hover-opacity" alt="Peak District">
       <div class="overlay">
-       <div class="text"><a href="http://www.walkwithcham.com/2016/01/haedong-yonggungsa-temple.html" target="_blank" style="text-decoration:none">Haedong Yonggungsa</a></div>
+       <div class="text"><a href="http://www.peakdistrict.gov.uk/" target="_blank" style="text-decoration:none">Peak District</a></div>
        </div>
     </div>
     </div>
 
     <div class="w3-col m3">
       <div class="example">
-      <img src="./img/haeundae.jpg" style="width:100%" class="w3-hover-opacity" alt="Haeundae Beach">
+      <img src="./img/SheffieldBotanicalGardens.jpg" style="width:100%" class="w3-hover-opacity" alt="Sheffield Botanical Gardens">
       <div class="overlay">
-       <div class="text"><a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264155" target="_blank" style="text-decoration:none">Haeundae Beach</a></div>
+       <div class="text"><a href="http://www.sbg.org.uk/" target="_blank" style="text-decoration:none">Sheffield Botanical Gardens</a></div>
        </div>
      </div>
     </div>
 
     <div class="w3-col m3">
       <div class="example">
-      <img src="./img/gukjeMarket.jpg" style="width:100%" class="w3-hover-opacity" alt="Gukje Market">
+      <img src="./img/SheffieldCathedral.jpg" style="width:100%" class="w3-hover-opacity" alt="Sheffield Cathedral">
       <div class="overlay">
-       <div class="text"><a href="http://english.visitkorea.or.kr/enu/SHP/SH_EN_7_2.jsp?cid=705873" target="_blank" style="text-decoration:none">Gukje Market</a></div>
+       <div class="text"><a href="http://www.sheffieldcathedral.org/" target="_blank" style="text-decoration:none">Sheffield Cathedral</a></div>
        </div>
       </div>
     </div>
@@ -239,9 +234,9 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3">
       <div class="example">
-      <img src="./img/Beomeosa.jpeg" style="width:100%" class="w3-hover-opacity" alt="Beomeosa">
+      <img src="./img/SheffieldTheatres.jpg" style="width:100%" class="w3-hover-opacity" alt="Sheffield Theatres">
       <div class="overlay">
-       <div class="text"><a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264227" target="_blank" style="text-decoration:none">Beomeosa</a></div>
+       <div class="text"><a href="https://www.sheffieldtheatres.co.uk/" target="_blank" style="text-decoration:none">Sheffield Theatres</a></div>
        </div>
 
     </div>
@@ -249,133 +244,38 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <div class="w3-col m3">
     <div class="example">
-      <img src="./img/gamcheon.jpg" style="width:100%" target="_blank" class="w3-hover-opacity" alt="Gamcheon Culture Village">
+      <img src="./img/SheffieldTownHall.jpg" style="width:100%" target="_blank" class="w3-hover-opacity" alt="Sheffield TownHall">
       <div class="overlay">
-       <div class="text"><a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=1998211" target="_blank" style="text-decoration:none">Gamcheon Culture Village</a></div>
+       <div class="text"><a href="http://www.sheffieldcityhall.co.uk/" target="_blank" style="text-decoration:none">Sheffield TownHall</a></div>
        </div>
     </div>
     </div>
 
     <div class="w3-col m3">
       <div class="example">
-      <img src="./img/subyeon.JPG" style="width:100%" class="w3-hover-opacity" alt="Minrak Subyeon Park">
+      <img src="./img/TropicalButterflyHouse.JPG" style="width:100%" class="w3-hover-opacity" alt="Tropical Butterfly House">
       <div class="overlay">
-       <div class="text"><a href="https://www.tripadvisor.ie/Attraction_Review-g297884-d4095638-Reviews-Minrak_Subyeon_Gongweon-Busan.html" target="_blank" style="text-decoration:none">Minrak Subyeon Gongweon</a></div>
+       <div class="text"><a href="http://www.butterflyhouse.co.uk/" target="_blank" style="text-decoration:none">Tropical Butterfly House</a></div>
        </div>
      </div>
     </div>
 
     <div class="w3-col m3">
       <div class="example">
-      <img src="./img/Gwangandaegyo.jpg" style="width:100%" class="w3-hover-opacity" alt="Gwangandaegyo">
+      <img src="./img/WinterGarden.jpg" style="width:100%" class="w3-hover-opacity" alt="Winter Garden">
       <div class="overlay">
-       <div class="text"><a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=1064834" target="_blank" style="text-decoration:none">Gwangandaegyo</a></div>
+       <div class="text"><a href="http://www.welcometosheffield.co.uk/dms-connect/search?dms=3&venue=1587927" target="_blank" style="text-decoration:none">Winter Garden</a></div>
        </div>
       </div>
     </div>
 
   </div>
-
 </div>
-
-
-<!--JEJU -->
-
-<div class="Jeju mySlides">
-  <h1 class="w3-center" id="jeju">Jeju</h1>
-  <p class="w3-center"><em>Jeju island is the largest island in Korea.<br>If you go to Jeju Island, you will be attracted to the beauty of Jeju Island.
-</em></p><br>
-
-<div class="w3-row-padding w3-center">
-  <div class="w3-col m3">
-    <div class="example">
-    <img src="./img/hallaMountain.jpg" style="width:100%" class="w3-hover-opacity" alt="Halla Mountain">
-    <div class="overlay">
-     <div class="text"><a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264172" target="_blank" style="text-decoration:none">Halla Mountain</a></div>
-     </div>
-
-  </div>
-  </div>
-
-  <div class="w3-col m3">
-  <div class="example">
-    <img src="./img/seongsanilchulbong.jpg" style="width:100%" target="_blank" class="w3-hover-opacity" alt="Seongsan Ilchulbong">
-    <div class="overlay">
-     <div class="text"><a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264207" target="_blank" style="text-decoration:none">Seongsan Ilchulbong</a></div>
-     </div>
-  </div>
-  </div>
-
-  <div class="w3-col m3">
-    <div class="example">
-    <img src="./img/ollegil.jpeg" style="width:100%" class="w3-hover-opacity" alt="Olle-Gil">
-    <div class="overlay">
-     <div class="text"><a href="https://english.visitkorea.or.kr/enu/ATR/SI_ENG_2_3_1.jsp" target="_blank" style="text-decoration:none">Olle-Gil</a></div>
-     </div>
-   </div>
-  </div>
-
-  <div class="w3-col m3">
-    <div class="example">
-    <img src="./img/manjanggul.jpeg" style="width:100%" class="w3-hover-opacity" alt="Manjang-Gul">
-    <div class="overlay">
-     <div class="text"><a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264236" target="_blank" style="text-decoration:none">Manjang-Gul</a></div>
-     </div>
-    </div>
-  </div>
-
-</div>
-
-
-<div class="w3-row-padding w3-center">
-  <div class="w3-col m3">
-    <div class="example">
-    <img src="./img/SeongeupFolkVillage.jpg" style="width:100%" class="w3-hover-opacity" alt="Seongeup Folk Villagen">
-    <div class="overlay">
-     <div class="text"><a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264205" target="_blank" style="text-decoration:none">Seongeup Folk Village</a></div>
-     </div>
-
-  </div>
-  </div>
-
-  <div class="w3-col m3">
-  <div class="example">
-    <img src="./img/dumoak.jpg" style="width:100%" target="_blank" class="w3-hover-opacity" alt="kim young gap gallery Dumoak">
-    <div class="overlay">
-     <div class="text"><a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=1056620" target="_blank" style="text-decoration:none">Kim Young Gap Gallery Dumoak</a></div>
-     </div>
-  </div>
-  </div>
-
-  <div class="w3-col m3">
-    <div class="example">
-    <img src="./img/oreum.jpeg" style="width:100%" class="w3-hover-opacity" alt="Yongnuni Oreum">
-    <div class="overlay">
-     <div class="text"><a href="http://www.lovejeju.info/yongnuni-oreum/?ckattempt=1" target="_blank" style="text-decoration:none">Yongnuni Oreum</a></div>
-     </div>
-   </div>
-  </div>
-
-  <div class="w3-col m3">
-    <div class="example">
-    <img src="./img/cheonjeyeon.jpg" style="width:100%" class="w3-hover-opacity" alt="Cheonjeyeon Waterfall">
-    <div class="overlay">
-     <div class="text"><a href="http://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264176" target="_blank" style="text-decoration:none"> Cheonjeyeon Waterfall</a></div>
-     </div>
-    </div>
-  </div>
-
-</div>
-
-
-</div>
-
 
   <div class="w3-center w3-padding-32">
     <div class="w3-bar">
       <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
       <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-      <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
       <!--
       <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
       <a href="#" class="w3-bar-item w3-black w3-button">1</a>
