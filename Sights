@@ -59,7 +59,7 @@ nav{
   -ms-transform: translate(-50%, -50%);
 }
 #Sheffield1, #Sheffield2{
-    color: rgba(240,100,100,0.9);
+    color: black;
     font-size: 50px;
 }
 /* Turn off parallax scrolling for tablets and phones */
