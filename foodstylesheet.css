@@ -6,14 +6,16 @@ html{
 header {
   text-align: center;
   color: black;
+	font-family: 'Playfair Display', serif;
 }
 
-body,h1,h2,h3,h4,h5,h6 {font-family: 'Playfair Display', serif;}
+
 body, html {
     height: 100%;
     color: black;
     line-height: 1.8;
     text-align: center;
+		font-family: 'Playfair Display', serif;
 	}
 
 ul{
@@ -60,4 +62,21 @@ h4{
 	font-size: 15px;
 	font-family: 'Playfair Display', serif;
   font-weight: normal;
+}
+
+@media (max-width: 500px) {
+  h1 {font-size: 36px;
+  }
+  li {display: block;
+      padding: 5px;
+  }
+}
+
+.w3-center {
+  font-family: 'Playfair Display', serif;
+}
+.rounded-circle {
+    padding: 3px;
+    width: 150px;
+    height: 150px;
 }
