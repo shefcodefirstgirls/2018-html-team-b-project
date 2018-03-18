@@ -54,19 +54,6 @@
   nav{
     background-color: #white;
   }
-  /* Create a Parallax Effect */
-  .bgimg-1, .bgimg-2{
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-  }
-  /* First image (Logo. Full height) */
-  .w3-wide {letter-spacing: 10px;}
-  .w3-hover-opacity {cursor: pointer;}
-  .example{
-    position: relative;
-  }
   .overlay {
     position: absolute;
     top: 0;
@@ -79,9 +66,6 @@
     transition: .5s ease;
     background-color: rgba(1,1,1,0.3);
   }
-  .example:hover .overlay {
-    opacity: 1;
-  }
   .text {
     color: white;
     font-size: 20px;
@@ -91,14 +75,25 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
-  #Sheffield1, #Sheffield2{
-      color: black;
-      font-size: 35px;
-  }
-  #TourSheffield{
+  #TourSheffield {
       color: black;
       font-size: 55px;
   }
+  img {
+      border-radius: 50%;
+  }
+  .circular--square {
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  }
+
+
+
+
   /* Turn off parallax scrolling for tablets and phones */
   @media only screen and (max-device-width: 1024px) {
       .bgimg-1, .bgimg-2 {
@@ -135,19 +130,19 @@
   <div class="aboutus">
    <div class='col-sm-4 new-class'>
     <h3 class='our names'>Dian</h3>
-    <img src="./img/lydia.jpeg", class="image-circle img-responsive" alt="Dian">
+    <img src="./img/lydia.jpeg", class="circular--square" alt="Dian">
     <h5> I'm Dian, and...</h5>
    </div>
 
    <div class='col-sm-4 new-class'>
     <h3 class='our names'>Dian</h3>
-    <img src="./img/lydia.jpeg", class="image-circle img-responsive" alt="Dian">
+    <img src="./img/lydia.jpeg", class="circular--square" alt="Dian">
     <h5> I'm Dian, and...</h5>
    </div>
 
    <div class='col-sm-4 new-class'>
     <h3 class='our names'>Dian</h3>
-    <img src="./img/lydia.jpeg", class="image-circle img-responsive" alt="Dian">
+    <img src="./img/lydia.jpeg", class="circular--square" alt="Dian">
     <h5> I'm Dian, and...</h5>
    </div>
  </div>
