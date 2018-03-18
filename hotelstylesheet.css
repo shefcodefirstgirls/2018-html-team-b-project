@@ -80,9 +80,16 @@ li {display: block;
 /* Create a Parallax Effect */
 
 /* First image (Logo. Full height) */
-.w3-wide {letter-spacing: 10px;}
+
+
+.container{
+	position: relative;
+	display: grid;
+}
+
 .w3-hover-opacity {
   cursor: pointer;
+	display: grid;
   width:  150px;
   height: 150px;
   padding: 3px;
@@ -91,13 +98,13 @@ li {display: block;
 }
 
 .example{
-  position: relative;
+	display: grid;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-
 }
+
 .overlay {
   position: relative;
   top: 0;
@@ -127,10 +134,15 @@ li {display: block;
   -ms-transform: translate(-50%, -50%);
 	font-family: 'Playfair Display', serif;
 }
+
 .w3-center{
 	font-family: 'Playfair Display', serif;
 }
 
+
+
 .w3-row-padding.w3-center {
-	display: inline;
-	}
+	position: relative;
+	text-align: center;
+	display: grid;
+}
