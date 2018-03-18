@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title>Attractions</title>
+    <title>Sights</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -11,15 +11,37 @@
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 
 <style>
+
+header {
+  text-align: center;
+  color: black;
+}
+
 body,h1,h2,h3,h4,h5,h6 {font-family: 'Playfair Display', serif;}
 body, html {
     height: 100%;
     color: black;
     background-color: #fafafa;
     line-height: 1.8;
+    text-align: center;
+    /* background-image: url("images/bw_arts_tower.jpeg");
+    background-size: cover; */
+
+}
+ul {
+  padding: 10px;
+  background: rgba(0,0,0,0.4);
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+}
+li {
+  display: inline;
+  padding: 0px 15px 0px 15px;
+  font-size: 18px;
+  color:white;
 }
 nav{
-  background-color: #138d75;
+  background-color: #white;
 }
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2{
@@ -60,7 +82,11 @@ nav{
 }
 #Sheffield1, #Sheffield2{
     color: black;
-    font-size: 50px;
+    font-size: 35px;
+}
+#TourSheffield{
+    color: black;
+    font-size: 55px;
 }
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
@@ -72,7 +98,7 @@ nav{
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-html,body,h1,h2,h3,h4 {font-family:"Playfair Display", sans-serif}
+html,body,h1,h2,h3,h4 {font-family:"Playfair Display", serif;}
 .mySlides {display:none}
 .w3-tag, .fa {cursor:pointer}
 .w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
@@ -81,6 +107,9 @@ html,body,h1,h2,h3,h4 {font-family:"Playfair Display", sans-serif}
 </head>
 
 <body>
+ <header>
+   <h1 class="w3-center" id="TourSheffield">Tour Sheffield</h1>
+ </header>
 
 <!--nav bar-->
 <nav>
@@ -88,9 +117,8 @@ html,body,h1,h2,h3,h4 {font-family:"Playfair Display", sans-serif}
   <li class="sights"><a href="./Sights.html">Sights</a></li>
   <li class="food"><a href="./Food.html">Food</a></li>
   <li class="hotels"><a href="./Hotels.html">Hotels</a></li>
-  <li class="transport"><a class="attractions_title" href="./attractions.html">Transport</a></li>
   <li class="shops"><a href="./Shops.html">Shops</a></li>
-  <li class="about us"><a href="./about us.html">About Us</a></li>
+  <li class="about us"><a href="./aboutus.html">About Us</a></li>
   <li class="forum"><a href="./Forum.html">Forum</a></li>
 </ul>
 </nav>
@@ -98,7 +126,7 @@ html,body,h1,h2,h3,h4 {font-family:"Playfair Display", sans-serif}
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
 
 <div class="Sheffield1 mySlides">
-  <h1 class="w3-center" id="Sheffield1">Sheffield</h1>
+  <h2 class="w3-center" id="Sheffield1">Sights</h2>
   <p class="w3-center"><em>Sheffield is a city and metropolitan borough in South Yorkshire, England.
   <br>Being the compact city that it is, Sheffield is pretty easy to get around, so whether you fancy clocking up some steps or jumping on a bus/tram, there are some really interesting districts close to the city centre just waiting to be discovered.</em></p><br>
 
@@ -187,7 +215,7 @@ html,body,h1,h2,h3,h4 {font-family:"Playfair Display", sans-serif}
 
 <!-- SHEEFIELD PART 2 -->
 <div class="Shffield2 mySlides">
-  <h1 class="w3-center" id="Sheffield2">Sheffield</h1>
+  <h2 class="w3-center" id="Sheffield2">Sights</h2>
   <p class="w3-center"><em>Sheffield is a city and metropolitan borough in South Yorkshire, England.
   <br>Being the compact city that it is, Sheffield is pretty easy to get around, so whether you fancy clocking up some steps or jumping on a bus/tram, there are some really interesting districts close to the city centre just waiting to be discovered.</em></p><br>
 
@@ -301,18 +329,7 @@ $('div').hover(function()
 {
    $('#seoul_description').hide()
  });
- /*
-$('#seoul_description').hover(function()
-{
-   $('#seoul_description').hide()
- });*/
-/*
-$('#seoul_description').hover(function()
-{
-}, function()
- {
-   $('#seoul_description').hide()
- });*/
+
 </script>
 <script>
 // Modal Image Gallery
