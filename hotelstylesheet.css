@@ -81,7 +81,6 @@ li {display: block;
 
 /* First image (Logo. Full height) */
 
-
 .container{
 	position: relative;
 	display: grid;
@@ -89,7 +88,6 @@ li {display: block;
 
 .w3-hover-opacity {
   cursor: pointer;
-	display: grid;
   width:  150px;
   height: 150px;
   padding: 3px;
@@ -98,15 +96,14 @@ li {display: block;
 }
 
 .example{
-	display: grid;
-  top: 0;
+	top: 0;
   bottom: 0;
   left: 0;
   right: 0;
 }
 
 .overlay {
-  position: relative;
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
@@ -123,11 +120,10 @@ li {display: block;
   opacity: 1;
 }
 
-
 .text {
   color: white;
   font-size: 20px;
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -135,14 +131,7 @@ li {display: block;
 	font-family: 'Playfair Display', serif;
 }
 
+
 .w3-center{
 	font-family: 'Playfair Display', serif;
-}
-
-
-
-.container.w3-center {
-	position: relative;
-	text-align: center;
-	display: grid;
 }
