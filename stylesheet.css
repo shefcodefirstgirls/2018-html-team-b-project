@@ -4,13 +4,19 @@ html{
 }
 
 header {
-text-align: left;
-font-size: 40px;
-color: black;
-font-family: 'Playfair Display', serif;
+  text-align: center;
+  color: black;
 }
 
-ul {
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Playfair Display', serif;}
+body, html {
+    height: 100%;
+    color: black;
+    line-height: 1.8;
+    text-align: center;
+	}
+
+ul{
 padding: 10px;
 background: rgba(0,0,0,0.5);
 font-size: 20px;
@@ -23,15 +29,15 @@ display: inline;
 color: white;
 padding: 0px 15px 0px 15px;
 }
-body {
-font-family: 'Playfair Display', serif;
+
+nav{
+  background-color: #white;
 }
 
 h1{
 	margin:0;
 	font-size: 50px;
 	font-family: 'Playfair Display', serif;
-	font-weight: bold;
 }
 
 h2{

@@ -1,162 +1,204 @@
 <!DOCTYPE html>
 <head>
 <title>Hotels</title>
-<link rel='stylesheet' type=text/css href= 'stylesheet.css'>
-</head>
-<link href="/normalize.css" rel="stylesheet">
+<link rel='stylesheet' type=text/css href= 'hotelstylesheet.css'>
+<!--link href="/normalize.css" rel="stylesheet"-->
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,900i" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<style>
-
-@media (max-width: 500px) {
-h1 {font-size: 36px;
-}
-li {display: block;
-    padding: 5px;
-}
-}
-
-img.rounded-circle {
-
-    padding: 3px; /* Some padding */
-    width: 150px; /* Set a small width */
-    height: 150px;
-}
-</style>
+</head>
 
 
 
 <body>
+ <header>
+  <h1 class="w3-center" id="TourSheffield">Tour Sheffield</h1>
+ </header>
 
-<h1>Shopping</h1>
+<!--navbar-->
 <nav>
-<ul class="nav">
-  <li class="sights"><a href="./sights.html">Sights</a></li>
-  <li class="food"><a href="./Food.html">Food</a></li>
-  <li class="hotels"><a href="./Hotels.html">Hotels</a></li>
-  <li class="transport"><a class="attractions_title" href="./attractions.html">Transport</a></li>
-  <li class="shops"><a href="./Shops.html">Shops</a></li>
-  <li class="about us"><a href="./about us.html">About Us</a></li>
-  <li class="forum"><a href="./Forum.html">Forum</a></li>
-</ul>
+ <ul class="nav">
+  <li class="Home"><a href=".index.html">Home</a></li>
+  <li class="Sights"><a href="./sights.html">Sights</a></li>
+  <li class="Food"><a href="./Food.html">Food</a></li>
+  <li class="Hotels"><a href="./Hotels.html">Hotels</a></li>
+  <li class="Shops"><a href="./Shops.html">Shops</a></li>
+  <li class="About us"><a href="./aboutus.html">About Us</a></li>
+  <li class="Forum"><a href="./Forum.html">Forum</a></li>
+ </ul>
 </nav>
-</header>
 
-<!--main body content----->
-<br/>
-<div class="container fluid">
+
+<div class="Sheffield1 mySlides">
+  <h3 class="w3-center" id="Sheffield1"> Hotels in Sheffield </h3>
+</div>
+
+
+
+
+<!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+<!-- SHEEFIELD  PART 1-->
+
+<div class="w3-row-padding w3-center">
+
+ <div class="container">
+   <img src="images/mercure.jpeg"  class="w3-hover-opacity" alt="The Mercure">
+    <div class="overlay">
+       <div class="text"><a href="https://www.accorhotels.com/gb/hotel-6628-mercure-sheffield-st-paul-s-hotel-and-spa/index.shtml#origin=mercure" target="_blank" style="text-decoration:none">The Mercure </a></div>
+       </div>
+     </div>
+
+
 
 <div class="container">
-  <!---mercure sheffield---->
-  <div class="row"> <!-- open row -->
-				<div class="col-md-auto"> <!-- open col -->
-
-					<a target="_blank" href="https://www.accorhotels.com/gb/hotel-6628-mercure-sheffield-st-paul-s-hotel-and-spa/index.shtml#origin=mercure">
-						<img src="images/mercure.jpeg" class="rounded-circle" alt="">
-					</a>
-				</div> <!-- close col -->
-				<div class="col-8"> <!-- open col -->
-					<div class="media-body"> <!-- open media -->
-						<h2 <a href="#"><strong>Mercure Sheffield</strong></a></h2>
-						<h3>
-              <ul>
-              <li>Tripadvisor rating: 4/5</li>
-              <li>Price per night: £88</li>
-              <li>Distance from city centre: 0 miles</li>
-            </ul>
-            </h3>
-          </div> <!-- close media -->
-    				</div> <!-- close col -->
-    			</div> <!-- close mercure ->
-
-      <!-Days Inn Sheffield---->
-        <div class="row"> <!-- open row -->
-          	<div class="col-md-auto"> <!-- open col -->
-
-          <a target="_blank" href="https://www.wyndhamhotels.com/en-uk/days-inn/sheffield-united-kingdom/days-inn-sheffield-m1/overview">
-          <img src="images/daysInn.jpeg" class="rounded-circle" alt="">
-          	</a>
-          	</div> <!-- close col -->
-          		<div class="col-8"> <!-- open col -->
-          		 <div class="media-body"> <!-- open media -->
-          			 <h2 <a href="#"><strong>Days Inn Sheffield</strong> </a></h2>
-          			<h3>
-                <ul>
-                <li>Tripadvisor rating: 3.5/5</li>
-                <li>Price per night: £38</li>
-                <li>Distance from city centre: 9 miles</li>
-                </ul>
-                </h3>
-                  </div> <!-- close media -->
-              		</div> <!-- close col -->
-              	</div> <!-- close days Inn ->
-
-        <!-Hampton by Hilton---->
-          <div class="row"> <!-- open row -->
-          <div class="col-md-auto"> <!-- open col -->
-
-            <a target="_blank" href="http://hamptoninn3.hilton.com/en/hotels/united-kingdom/hampton-by-hilton-sheffield-DSASHHX/index.html">
-            <img src="images/hamptonbyhilton.jpeg" class="rounded-circle" alt="">
-              </a>
-            </div> <!-- close col -->
-            <div class="col-8"> <!-- open col -->
-            <div class="media-body"> <!-- open media -->
-           <h2 <a href="#"><strong>Hampton by Hilton</strong></a></h2>
-            <h3>
-            <ul>
-            <li>Tripadvisor rating: 4.5/5</li>
-            <li>Price per night: £49</li>
-            <li>Distance from city centre: 0.3 miles</li>
-            </ul>
-            </h3>
-          </div> <!-- close media -->
-          </div> <!-- close col -->
-       </div> <!-- close days hampton by hilton ->
-
-         <!-Harley Hotel ---->
-           <div class="row"> <!-- open row -->
-           <div class="col-md-auto"> <!-- open col -->
-
-             <a target="_blank" href="http://www.theharley.co.uk/hotel/">
-             <img src="images/harley.jpeg" class="rounded-circle" alt="">
-               </a>
-             </div> <!-- close col -->
-             <div class="col-8"> <!-- open col -->
-             <div class="media-body"> <!-- open media -->
-             <h2 <a href="#"><strong>Harley Hotel</strong></a></h2>
-             <h3>
-             <ul>
-             <li>Tripadvisor rating: 2.5/5</li>
-             <li>Price per night: £35</li>
-             <li>Distance from city centre: 0.7 miles</li>
-             </ul>
-             </h3>
-           </div> <!-- close media -->
-           </div> <!-- close col -->
-        </div> <!-- close harley hotel -->
-  </body>
-<br/>
-<br/>
-
-<section id="social" class="social">
-<div class="container">
-<div class="row">
-<div class="col-lg-12">
-  <div id='social-buttons'>
-    <a class='image-link' href='https://twitter.com' target='_blank'>
-      <img src='images/twitter.jpeg' width="40" height="40">
-  </a>
- <a class='image-link' href="https://www.facebook.com">
- <img src='images/facebook.png' width="50" height="50">
- </a>
- <a class='image-link' href='https://www.pinterest.co.uk' target='_blank'>
- <img src='images/pinterest.jpeg' width="40" height="40">
-       </a>
+  <div class="example">
+  <img src="images/daysInn.jpeg" class="w3-hover-opacity" alt="Days Inn Sheffield">
+    <div class="overlay">
+      <div class="text"><a href="https://www.wyndhamhotels.com/en-uk/days-inn/sheffield-united-kingdom/days-inn-sheffield-m1/overview" target="_blank" style="text-decoration:none">Days Inn Sheffield</div>
       </div>
+     </div>
+   </div>
+
+
+ <div class="container">
+  <div class="example">
+  <img src="images/hamptonbyhilton.jpeg" class="w3-hover-opacity" alt="Hampton by Hilton">
+    <div class="overlay">
+      <div class="text"><a href="http://hamptoninn3.hilton.com/en/hotels/united-kingdom/hampton-by-hilton-sheffield-DSASHHX/index.html" target="_blank" style="text-decoration:none">Hampton by Hilton</div>
       </div>
     </div>
-   </div>
-   </section>
+  </div>
 
-   <br/>
-   </html>
+
+ <div class="container">
+  <div class="example">
+    <img src="images/harley.jpeg" class="w3-hover-opacity" alt="The Harley">
+     <div class="overlay">
+      <div class="text"><a href="http://www.theharley.co.uk/hotel/" target="_blank" style="text-decoration:none">The Harley</div>
+      </div>
+  </div>
+ </div>
+
+
+ <div class="container">
+  <div class="example">
+   <img src="images/JurysInn.jpeg"  class="w3-hover-opacity" alt="Jury's Inn">
+    <div class="overlay">
+     <div class="text"><a href="https://www.jurysinns.com/hotels/sheffield" target="_blank" style="text-decoration:none">Jury's Inn</div>
+    </div>
+  </div>
+</div>
+
+
+ <div class="container">
+  <div class="example">
+  <img src="images/houseboat.jpeg"  class="w3-hover-opacity" alt="House Boat Hotels">
+   <div class="overlay">
+    <div class="text"><a href="http://www.houseboathotels.com" target="_blank" style="text-decoration:none">House Boat Hotels</div>
+   </div>
+  </div>
+ </div>
+
+
+ <div class="container">
+  <div class="example">
+  <img src="images/norfolkarms.jpeg"  class="w3-hover-opacity" alt="The Norfolk Arms">
+    <div class="overlay">
+     <div class="text"><a href="http://www.norfolkarms.com/accommodation-rooms-and-rates.php" target="_blank" style="text-decoration:none">The Norfolk Arms</div>
+    </div>
+   </div>
+  </div>
+
+ <div class="container">
+  <div class="example">
+  <img src="images/copthorne.jpeg"class="w3-hover-opacity" alt="The Copthorne Hotel">
+   <div class="overlay">
+    <div class="text"><a href="https://www.millenniumhotels.com/en/sheffield/copthorne-hotel-sheffield/" target="_blank" style="text-decoration:none">The Copthorne Hotel</div>
+   </div>
+  </div>
+ </div>
+
+</div>
+
+<section id="social" class="social">
+ <div class="container">
+  <div class="row">
+  <div class="col-lg-12">
+   <div id='social-buttons'>
+   <a class='image-link' href='https://twitter.com' target='_blank'>
+   <img src='images/twitter.jpeg' width="40" height="40"> </a>
+
+   <a class='image-link' href="https://www.facebook.com">
+   <img src='images/facebook.png' width="50" height="50">  </a>
+
+   <a class='image-link' href='https://www.pinterest.co.uk' target='_blank'>
+   <img src='images/pinterest.jpeg' width="40" height="40"> </a>
+
+   </div>
+  </div>
+ </div>
+</div>
+</section>
+
+<br/>
+   <!--<script>
+   function clickFunction(){
+     document.getElementById()
+   }
+   $('#seoul').click(function()
+   {
+     $('#seoul_description').show()
+   }
+   );
+   $('div').hover(function()
+   {
+      $('#seoul_description').hide()
+    });
+    /*
+   $('#seoul_description').hover(function()
+   {
+      $('#seoul_description').hide()
+    });*/
+   /*
+   $('#seoul_description').hover(function()
+   {
+   }, function()
+    {
+      $('#seoul_description').hide()
+    });*/
+   </script>
+   <script>
+   // Modal Image Gallery
+   function onClick(element) {
+     document.getElementById("img01").src = element.src;
+     document.getElementById("modal01").style.display = "block";
+     var captionText = document.getElementById("caption");
+     captionText.innerHTML = element.alt;
+   }
+   // Change style of navbar on scroll
+   window.onscroll = function() {myFunction()};
+   function myFunction() {
+       var navbar = document.getElementById("myNavbar");
+       if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+           navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+       } else {
+           navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+       }
+   }
+   // Used to toggle the menu on small screens when clicking on the menu button
+   function toggleFunction() {
+       var x = document.getElementById("navDemo");
+       if (x.className.indexOf("w3-show") == -1) {
+           x.className += " w3-show";
+       } else {
+           x.className = x.className.replace(" w3-show", "");
+       }
+   }
+-->
+</script>
+</html>
