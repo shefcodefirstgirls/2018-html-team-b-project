@@ -1,3 +1,4 @@
+
 html{
 	background: url("images/bw_arts_tower.jpeg");
 	background-size: cover;
@@ -19,20 +20,20 @@ body, html {
     line-height: 1.8;
     text-align: center;
 		font-family: 'Playfair Display', serif;
-	}
-
-ul{
-padding: 10px;
-background: rgba(0,0,0,0.5);
-font-size: 20px;
-font-family: 'Playfair Display', serif;
-text-align: center;
 }
 
+ul {
+    padding: 10px;
+    background: rgba(0,0,0,0.4);
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
 li {
-display: inline;
-color: white;
-padding: 0px 15px 0px 15px;
+    display: inline;
+    padding: 0px 15px 0px 15px;
+    font-size: 19px;
+    color:white;
+
 }
 
 nav{
@@ -42,9 +43,9 @@ nav{
 
 h1{
 	margin:0;
-	font-size: 50px;
-	font-family: 'Playfair Display', serif;
-	font-weight: bold;
+	font-size: 55px;
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: normal;
 }
 
 h2{
@@ -76,10 +77,6 @@ h4{
   li {display: block;
       padding: 5px;
   }
-}
-
-.w3-center {
-  font-family: 'Playfair Display', serif;
 }
 
 .rounded-circle {
@@ -115,4 +112,27 @@ h4{
 	width: 35%;
 	float: right;
 
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(1,1,1,0.3);
+}
+
+.text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
 }

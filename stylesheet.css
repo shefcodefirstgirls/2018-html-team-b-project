@@ -4,7 +4,7 @@ html{
 }
 
 header {
-  text-align: center;
+	text-align: center;
   color: black;
 }
 
@@ -38,7 +38,6 @@ h1{
 	margin:0;
 	font-size: 50px;
 	font-family: 'Playfair Display', serif;
-	font-weight: bold;
 }
 
 h2{
@@ -60,4 +59,15 @@ h4{
 	font-size: 15px;
 	font-family: 'Playfair Display', serif;
   font-weight: normal;
+}
+
+.fa {
+padding: 20px;
+font-size: 30px;
+width: 50px;
+text-align: center;
+text-decoration: none;
+}
+.fa:hover {
+opacity: 0.7;
 }
