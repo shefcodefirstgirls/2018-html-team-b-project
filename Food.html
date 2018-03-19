@@ -8,6 +8,12 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+<!-- Drop down-->
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+
 </head>
 
 <body>
@@ -16,38 +22,41 @@
 
     </header>
 
+
+
     <!--navbar-->
-      <nav>
-      <ul class="nav">
-        <li class="sights"><a href="./sights.html">Sights</a></li>
-        <li class="food"><a href="./Food.html">Food</a></li>
-        <li class="hotels"><a href="./Hotels.html">Hotels</a></li>
-        <li class="transport"><a class="attractions_title" href="./attractions.html">Transport</a></li>
-        <li class="shops"><a href="./Shops.html">Shops</a></li>
-        <li class="about us"><a href="./about us.html">About Us</a></li>
-        <li class="forum"><a href="./Forum.html">Forum</a></li>
-      </ul>
-      </nav>
+<nav>
+  <ul class="nav">
+   <li class="sights"<a href="./sights.html">Sights</a></li>
+   <li class="food"><a href="./Food.html">Food</a></li>
+   <li class="hotels"><a href="./Hotels.html">Hotels</a></li>
+   <li class="transport"><a class="attractions_title" href="./attractions.html">Transport</a></li>
+   <li class="shops"><a href="./Shops.html">Shops</a></li>
+   <li class="about us"><a href="./about us.html">About Us</a></li>
+   <li class="forum"><a href="./Forum.html">Forum</a></li>
+  </ul>
+</nav>
 
-  <div class="Sheffield1 mySlides">
-    <h2 class="w3-center" id="Sheffield1"> Places to Eat in Sheffield </h2>
+<!-- Title-->
+<div class="Sheffield1 mySlides">
+  <h1 class="w3-center" id="Sheffield1"> Places to Eat in Sheffield </h1>
 
 
-<h3>Italian Food </h3> <br/>
 
 <div class="first">
+<h2>Italian Food </h2> <br/>
 
-<div>
-  <a target="_blank" href="http://www.kiaspastaria.co.uk">
-  <img src="images/kia_italian.png" class="rounded-circle" alt="">
-    </a>
-    <h3> <a href="#"><strong>Kias Pastaria  </strong> </a></h3>
-    <h4>
+ <div>
+      <a target="_blank" href="http://www.kiaspastaria.co.uk">
+      <img src="images/kia_italian.png" class="rounded-circle" alt="">
+      </a>
+       <h3> <a href="#"><strong>Kias Pastaria  </strong> </a></h3>
+      <h4>
       <ul>
       <li>Tripadvisor rating: 5/5</li>
       <li>Price : ££ - £££</li>
-    </ul>
-  </h4>
+    </ul> <!--close list-->
+  </h4> <!-- close font style-->
 </div>
 
 <div>
@@ -65,8 +74,7 @@
 </div>
 
 <div class="second">
-
-<h3> British Food <h3 />
+<h2> British Food <h2 />
   <div>
     <a target="_blank" href="https://www.devonshirearmsmiddlehandley.co.uk">
     <img src="images/devonshire.png" class="rounded-circle" alt="">
@@ -118,3 +126,10 @@
    </section>
 
    <br/>
+
+<!--drop down script-->
+   <script>
+$(document).ready(function(){
+    $(".dropdown-toggle").dropdown("toggle");
+});
+</script>

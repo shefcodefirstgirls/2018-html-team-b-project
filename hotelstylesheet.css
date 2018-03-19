@@ -127,7 +127,7 @@ li {display: block;
 .text {
   color: white;
   font-size: 20px;
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -141,7 +141,7 @@ li {display: block;
 
 
 
-.w3-row-padding.w3-center {
+.container.w3-center {
 	position: relative;
 	text-align: center;
 	display: grid;
