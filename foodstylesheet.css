@@ -150,6 +150,7 @@ h5{
 	width: 50px;
 	text-align: center;
 	text-decoration: none;
+	color: black;
 }
 .fa:hover {
 	opacity: 0.7;
