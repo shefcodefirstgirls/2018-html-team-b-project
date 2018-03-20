@@ -1,3 +1,4 @@
+/* Food style sheet */
 
 header {
 	text-align: center;
@@ -6,7 +7,7 @@ header {
 }
 
 nav{
-	background-color: white;
+	background-color: #fafafa;
 }
 
 body, html {
@@ -45,7 +46,6 @@ h1{
 
 h2{
 	margin: 0;
-	font-size: 30px;
 	font-family: 'Playfair Display', serif;
 	font-weight: normal;
 	color: white;
@@ -62,6 +62,13 @@ h3{
 h4{
 	margin: 0;
 	font-size: 15px;
+	font-family: 'Playfair Display', serif;
+	font-weight: normal;
+}
+
+h5{
+	margin: 0;
+	font-size: 35px;
 	font-family: 'Playfair Display', serif;
 	font-weight: normal;
 }

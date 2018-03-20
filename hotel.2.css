@@ -1,4 +1,4 @@
-
+/* hotel style sheet */
 header {
   text-align: center;
   color: black;
@@ -13,7 +13,7 @@ h1{
 
 h2{
   margin: 0;
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'Playfair Display', serif;
   font-weight: normal;
 }
@@ -39,9 +39,6 @@ body, html {
   background-color: #fafafa;
   line-height: 1.8;
   text-align: center;
-  /* background-image: url("images/bw_arts_tower.jpeg");
-  background-size: cover; */
-
 }
 ul {
   padding: 10px;

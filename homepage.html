@@ -20,16 +20,14 @@ header {
 body,h1,h2,h3,h4,h5,h6 {font-family: 'Playfair Display', serif;}
 body, html {
     height: 100%;
-    color: white;
+    color: black;
     line-height: 1.8;
     text-align: center;
-    background-image: url("./img/homepage.JPG");
-    background-image opacity: 0.5;
-    background-size: cover;
+    background-color: #fafafa;
 }
 ul {
   padding: 10px;
-  background: rgba(0,0,0,0.25);
+  background: rgba(0,0,0,0.4);
   font-size: 20px;
   font-family: 'Playfair Display', serif;
 }
@@ -76,7 +74,7 @@ nav{
     font-size: 35px;
 }
 #TourSheffield{
-    color: white;
+    color: black;
     font-size: 55px;
 }
 /* Turn off parallax scrolling for tablets and phones */
@@ -104,6 +102,26 @@ html,body,h1,h2,h3,h4 {font-family:"Playfair Display", serif;}
 .fa:hover {
   opacity: 0.7;
 }
+input[type="email"]{
+  font-family: 'Playfair Display', serif;
+  color: black;
+  background: white;
+  border: 0;
+  padding: 10px;
+  font-size: 15px;
+}
+input[type="submit"]{
+  font-family: 'Playfair Display', serif;
+  color: white;
+  background: rgba(0,0,0,0.5);
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+.submit {
+  margin-bottom: 40px;
+}
+
 </style>
 
 </head>
@@ -116,7 +134,7 @@ html,body,h1,h2,h3,h4 {font-family:"Playfair Display", serif;}
 <!--nav bar-->
 <nav>
 <ul class="nav">
-  <li class="index"><a href="./index.html">Home</a></li>
+  <li class="homepage"><a href="./homepage.html">Home</a></li>
   <li class="sights"><a href="./Sights.html">Sights</a></li>
   <li class="food"><a href="./Food.html">Food</a></li>
   <li class="hotels"><a href="./Hotels.html">Hotels</a></li>
@@ -125,13 +143,14 @@ html,body,h1,h2,h3,h4 {font-family:"Playfair Display", serif;}
 </ul>
 </nav>
 
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <div class="w3-content w3-container w3-padding-64" id="portfolio">
 
-<div class="Sheffield1 mySlides">
-  <h2 class="w3-center" id="Sheffield1">Sights</h2>
-  <p class="w3-center"><em>Sheffield is a city and metropolitan borough in South Yorkshire, England.
-  <br>Being the compact city that it is, Sheffield is pretty easy to get around, so whether you fancy clocking up some steps or jumping on a bus/tram, there are some really interesting districts close to the city centre just waiting to be discovered.</em></p><br>
-
+  <div class="Sheffield1 mySlides">
+    <h2 class="w3-center" id="Sheffield1">About Sheffield</h2>
+    <p class="w3-center"><em>Known as “The Steel City”, Sheffield was famed for its industry in the heyday of the 1900’s and remains a city of innovation to this day.<br>
+    We have a friendly, independent and alternative spirit that you won’t find in other cities, alongside a thriving cultural scene boasting award-winning theatre, beer, music, festivals, street art and so much more.
+It’s all here waiting for you:  Welcome to Sheffield.
+</em></p></br>
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <!-- SHEEFIELD  PART 1-->
   <div class="w3-row-padding w3-center">
@@ -139,187 +158,49 @@ html,body,h1,h2,h3,h4 {font-family:"Playfair Display", serif;}
       <div class="example">
       <img src="./img/AntiquesQuarter.JPG" style="width:100%" class="w3-hover-opacity" alt="Antiques Quarter">
         <div class="overlay">
-         <div class="text"><a href="http://sheffieldantiquesquarter.co.uk/" target="_blank" style="text-decoration:none">Antiques Quarter</div>
+         <div class="text"><a href="./Sights.html" target="_blank" style="text-decoration:none">Sights</div>
          </div>
      </div>
     </div>
 
     <div class="w3-col m3">
       <div class="example">
-      <img src="./img/ChatsworthHouse.jpg" style="width:100%" class="w3-hover-opacity" alt="Chatsworth House">
+      <img src="./img/food.jpg" style="width:100%" class="w3-hover-opacity" alt="Food">
       <div class="overlay">
-       <div class="text"><a href="https://www.chatsworth.org/" target="_blank" style="text-decoration:none">Chatsworth House</div>
+       <div class="text"><a href="./Food.html" target="_blank" style="text-decoration:none">Food</div>
        </div>
    </div>
     </div>
 
     <div class="w3-col m3">
             <div class="example">
-      <img src="./img/CityCentre.jpg" style="width:100%" class="w3-hover-opacity" alt="City Centre">
+      <img src="./img/Hotels.jpg" style="width:100%" class="w3-hover-opacity" alt="Hotels">
       <div class="overlay">
-       <div class="text"><a href="http://www.welcometosheffield.co.uk/visit/explore/city-centre" target="_blank" style="text-decoration:none">City Centre</div>
+       <div class="text"><a href="./Hotels.html" target="_blank" style="text-decoration:none">Hotels</div>
        </div>
     </div>
     </div>
 
     <div class="w3-col m3">
       <div class="example">
-      <img src="./img/EcclesallRoad&SharrowVale.jpg" style="width:100%" class="w3-hover-opacity" alt="Ecclesall Road & Sharrow Vale">
+      <img src="./img/shops.jpg" style="width:100%" class="w3-hover-opacity" alt="Shops">
       <div class="overlay">
-       <div class="text"><a href="http://sharrowvale.co.uk/" target="_blank" style="text-decoration:none">Sharrow Vale</a></div>
+       <div class="text"><a href="./Shops.html" target="_blank" style="text-decoration:none">Shops</a></div>
        </div>
     </div>
     </div>
-  </div>
-
-  <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m3">
-      <div class="example">
-      <img src="./img/GravesGallery.jpg" style="width:100%" class="w3-hover-opacity" alt="Graves Gallery">
-      <div class="overlay">
-       <div class="text"><a href="http://www.museums-sheffield.org.uk/museums/graves-gallery/home" target="_blank" style="text-decoration:none">Graves Gallery</a></div>
-       </div>
-
-    </div>
-    </div>
-
-    <div class="w3-col m3">
-    <div class="example">
-      <img src="./img/KelhamIsland.JPG" style="width:100%" target="_blank" class="w3-hover-opacity" alt="Kelham Island">
-      <div class="overlay">
-       <div class="text"><a href="http://www.welcometosheffield.co.uk/visit/explore/kelham-island" target="_blank" style="text-decoration:none">Kelham Island</a></div>
-       </div>
-    </div>
-    </div>
-
-    <div class="w3-col m3">
-      <div class="example">
-      <img src="./img/BeauchiefAbbey.jpg" style="width:100%" class="w3-hover-opacity" alt="Beauchief Abbey">
-      <div class="overlay">
-       <div class="text"><a href="http://beauchiefabbey.org.uk/" target="_blank" style="text-decoration:none">Beauchief Abbey</a></div>
-       </div>
-     </div>
-    </div>
-
-    <div class="w3-col m3">
-      <div class="example">
-      <img src="./img/LondonRoad.jpg" style="width:100%" class="w3-hover-opacity" alt="London Road">
-      <div class="overlay">
-       <div class="text"><a href="http://www.theoutdoorcity.co.uk/eat-your-way-around-the-world/" target="_blank" style="text-decoration:none">London Road</a></div>
-       </div>
-      </div>
-    </div>
-
-  </div>
-
-</div>
-
-
-<!-- SHEEFIELD PART 2 -->
-<div class="Shffield2 mySlides">
-  <h2 class="w3-center" id="Sheffield2">Sights</h2>
-  <p class="w3-center"><em>Sheffield is a city and metropolitan borough in South Yorkshire, England.
-  <br>Being the compact city that it is, Sheffield is pretty easy to get around, so whether you fancy clocking up some steps or jumping on a bus/tram, there are some really interesting districts close to the city centre just waiting to be discovered.</em></p><br>
-
-  <div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
-      <div class="example">
-      <img src="./img/MillenniumGallery.jpg" style="width:100%" class="w3-hover-opacity" alt="Millennium Gallery">
-      <div class="overlay">
-       <div class="text"><a href="http://www.museums-sheffield.org.uk/museums/millennium-gallery/home" target="_blank" style="text-decoration:none">Millennium Gallery</a></div>
-       </div>
-
-    </div>
-    </div>
-
-    <div class="w3-col m3">
-    <div class="example">
-      <img src="./img/PeakDistrict.jpg" style="width:100%" target="_blank" class="w3-hover-opacity" alt="Peak District">
-      <div class="overlay">
-       <div class="text"><a href="http://www.peakdistrict.gov.uk/" target="_blank" style="text-decoration:none">Peak District</a></div>
-       </div>
-    </div>
-    </div>
-
-    <div class="w3-col m3">
-      <div class="example">
-      <img src="./img/SheffieldBotanicalGardens.jpg" style="width:100%" class="w3-hover-opacity" alt="Sheffield Botanical Gardens">
-      <div class="overlay">
-       <div class="text"><a href="http://www.sbg.org.uk/" target="_blank" style="text-decoration:none">Sheffield Botanical Gardens</a></div>
-       </div>
-     </div>
-    </div>
-
-    <div class="w3-col m3">
-      <div class="example">
-      <img src="./img/SheffieldCathedral.jpg" style="width:100%" class="w3-hover-opacity" alt="Sheffield Cathedral">
-      <div class="overlay">
-       <div class="text"><a href="http://www.sheffieldcathedral.org/" target="_blank" style="text-decoration:none">Sheffield Cathedral</a></div>
-       </div>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m3">
-      <div class="example">
-      <img src="./img/SheffieldTheatres.jpg" style="width:100%" class="w3-hover-opacity" alt="Sheffield Theatres">
-      <div class="overlay">
-       <div class="text"><a href="https://www.sheffieldtheatres.co.uk/" target="_blank" style="text-decoration:none">Sheffield Theatres</a></div>
-       </div>
-
-    </div>
-    </div>
-
-    <div class="w3-col m3">
-    <div class="example">
-      <img src="./img/SheffieldTownHall.jpg" style="width:100%" target="_blank" class="w3-hover-opacity" alt="Sheffield TownHall">
-      <div class="overlay">
-       <div class="text"><a href="http://www.sheffieldcityhall.co.uk/" target="_blank" style="text-decoration:none">Sheffield TownHall</a></div>
-       </div>
-    </div>
-    </div>
-
-    <div class="w3-col m3">
-      <div class="example">
-      <img src="./img/TropicalButterflyHouse.JPG" style="width:100%" class="w3-hover-opacity" alt="Tropical Butterfly House">
-      <div class="overlay">
-       <div class="text"><a href="http://www.butterflyhouse.co.uk/" target="_blank" style="text-decoration:none">Tropical Butterfly House</a></div>
-       </div>
-     </div>
-    </div>
-
-    <div class="w3-col m3">
-      <div class="example">
-      <img src="./img/WinterGarden.jpg" style="width:100%" class="w3-hover-opacity" alt="Winter Garden">
-      <div class="overlay">
-       <div class="text"><a href="http://www.welcometosheffield.co.uk/dms-connect/search?dms=3&venue=1587927" target="_blank" style="text-decoration:none">Winter Garden</a></div>
-       </div>
-      </div>
-    </div>
-
   </div>
 </div>
-
-  <div class="w3-center w3-padding-32">
-    <div class="w3-bar">
-      <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-      <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-      <!--
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
-      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>-->
-    </div>
-  </div>
-
 </div>
+
+<br> If you want to contact us, please leave your email below.</br>
+<br>
+
+<input type="email" placeholder="Your email">
+<input type="submit", class="submit">
 
 <!-- social buttons-->
-<footer class="w3-container w3-padding-120 w3-center w3-white w3-xxlarge">
+<footer class="w3-container w3-padding-200 w3-center w3-xxlarge">
   <a href="https://www.codefirstgirls.org.uk"><i class="fa fa-facebook-official"></i></a>
   <a href="https://www.codefirstgirls.org.uk"><i class="fa fa-pinterest-p"></i></a>
   <a href="https://www.codefirstgirls.org.uk"><i class="fa fa-twitter"></i></a>
@@ -395,6 +276,18 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " w3-white";
 }
+
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+},  3000);
+
 </script>
 </body>
 
